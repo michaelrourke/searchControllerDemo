@@ -1,0 +1,17 @@
+//
+//  Prefix.pch
+//  TESTER
+//
+//  Created by Michael Rourke on 24/09/17.
+//  Copyright © 2017 Michael Rourke. All rights reserved.
+//
+
+#ifndef Prefix_pch
+#define Prefix_pch
+
+#ifdef __OBJC__
+@import Foundation;
+@import UIKit;
+#endif
+
+#endif /* Prefix_pch */

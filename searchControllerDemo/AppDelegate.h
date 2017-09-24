@@ -1,9 +1,6 @@
 //
 //  AppDelegate.h
-//  TESTER
-//
-//  Created by Michael Rourke on 24/09/17.
-//  Copyright © 2017 Michael Rourke. All rights reserved.
+//  searchControllerDemo
 //
 
 #import <UIKit/UIKit.h>
@@ -12,6 +9,4 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
-
 @end
-

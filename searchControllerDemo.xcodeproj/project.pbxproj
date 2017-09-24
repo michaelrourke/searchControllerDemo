@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C444E2821F77505100582833 /* APLDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C444E27C1F77505100582833 /* APLDetailViewController.m */; };
+		C444E2831F77505100582833 /* APLMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C444E27E1F77505100582833 /* APLMainTableViewController.m */; };
+		C444E2841F77505100582833 /* APLBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C444E27F1F77505100582833 /* APLBaseTableViewController.m */; };
+		C444E2851F77505100582833 /* APLProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = C444E2801F77505100582833 /* APLProduct.m */; };
+		C4A264B91F776E400052C3F2 /* TableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4A264B61F776D360052C3F2 /* TableCell.xib */; };
 		C4EAD3021F7728B800910CB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EAD3011F7728B800910CB8 /* AppDelegate.m */; };
 		C4EAD3051F7728B800910CB8 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EAD3041F7728B800910CB8 /* MasterViewController.m */; };
-		C4EAD3081F7728B800910CB8 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EAD3071F7728B800910CB8 /* DetailViewController.m */; };
 		C4EAD30B1F7728B800910CB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4EAD3091F7728B800910CB8 /* Main.storyboard */; };
 		C4EAD30D1F7728B800910CB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4EAD30C1F7728B800910CB8 /* Assets.xcassets */; };
 		C4EAD3101F7728B800910CB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4EAD30E1F7728B800910CB8 /* LaunchScreen.storyboard */; };
@@ -17,17 +21,26 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C4EAD2FD1F7728B800910CB8 /* TESTER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TESTER.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C444E27A1F77505000582833 /* APLBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLBaseTableViewController.h; sourceTree = "<group>"; };
+		C444E27B1F77505000582833 /* APLDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLDetailViewController.h; sourceTree = "<group>"; };
+		C444E27C1F77505100582833 /* APLDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLDetailViewController.m; sourceTree = "<group>"; };
+		C444E27D1F77505100582833 /* APLMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLMainTableViewController.h; sourceTree = "<group>"; };
+		C444E27E1F77505100582833 /* APLMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLMainTableViewController.m; sourceTree = "<group>"; };
+		C444E27F1F77505100582833 /* APLBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLBaseTableViewController.m; sourceTree = "<group>"; };
+		C444E2801F77505100582833 /* APLProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLProduct.m; sourceTree = "<group>"; };
+		C444E2811F77505100582833 /* APLProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLProduct.h; sourceTree = "<group>"; };
+		C444E28B1F7762A600582833 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		C4A264B61F776D360052C3F2 /* TableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TableCell.xib; path = /Users/michaelr/Downloads/searchControllerDemo/searchControllerDemo/TableCell.xib; sourceTree = "<absolute>"; };
+		C4A264BB1F776EB80052C3F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = /Users/michaelr/Downloads/searchControllerDemo/searchControllerDemo/Info.plist; sourceTree = "<absolute>"; };
+		C4A264BC1F7774EE0052C3F2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C4EAD2FD1F7728B800910CB8 /* searchControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = searchControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4EAD3001F7728B800910CB8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C4EAD3011F7728B800910CB8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C4EAD3031F7728B800910CB8 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		C4EAD3041F7728B800910CB8 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		C4EAD3061F7728B800910CB8 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		C4EAD3071F7728B800910CB8 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		C4EAD30A1F7728B800910CB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C4EAD30C1F7728B800910CB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4EAD30F1F7728B800910CB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C4EAD3111F7728B800910CB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4EAD3121F7728B800910CB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -45,7 +58,8 @@
 		C4EAD2F41F7728B800910CB8 = {
 			isa = PBXGroup;
 			children = (
-				C4EAD2FF1F7728B800910CB8 /* TESTER */,
+				C4A264BC1F7774EE0052C3F2 /* README.md */,
+				C4EAD2FF1F7728B800910CB8 /* searchControllerDemo */,
 				C4EAD2FE1F7728B800910CB8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,35 +67,43 @@
 		C4EAD2FE1F7728B800910CB8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C4EAD2FD1F7728B800910CB8 /* TESTER.app */,
+				C4EAD2FD1F7728B800910CB8 /* searchControllerDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C4EAD2FF1F7728B800910CB8 /* TESTER */ = {
+		C4EAD2FF1F7728B800910CB8 /* searchControllerDemo */ = {
 			isa = PBXGroup;
 			children = (
 				C4EAD3001F7728B800910CB8 /* AppDelegate.h */,
 				C4EAD3011F7728B800910CB8 /* AppDelegate.m */,
 				C4EAD3031F7728B800910CB8 /* MasterViewController.h */,
 				C4EAD3041F7728B800910CB8 /* MasterViewController.m */,
-				C4EAD3061F7728B800910CB8 /* DetailViewController.h */,
-				C4EAD3071F7728B800910CB8 /* DetailViewController.m */,
-				C4EAD3091F7728B800910CB8 /* Main.storyboard */,
+				C444E27A1F77505000582833 /* APLBaseTableViewController.h */,
+				C444E27F1F77505100582833 /* APLBaseTableViewController.m */,
+				C444E27D1F77505100582833 /* APLMainTableViewController.h */,
+				C444E27E1F77505100582833 /* APLMainTableViewController.m */,
+				C444E27B1F77505000582833 /* APLDetailViewController.h */,
+				C444E27C1F77505100582833 /* APLDetailViewController.m */,
+				C444E2811F77505100582833 /* APLProduct.h */,
+				C444E2801F77505100582833 /* APLProduct.m */,
 				C4EAD30C1F7728B800910CB8 /* Assets.xcassets */,
+				C4A264BB1F776EB80052C3F2 /* Info.plist */,
+				C4EAD3091F7728B800910CB8 /* Main.storyboard */,
+				C4A264B61F776D360052C3F2 /* TableCell.xib */,
 				C4EAD30E1F7728B800910CB8 /* LaunchScreen.storyboard */,
-				C4EAD3111F7728B800910CB8 /* Info.plist */,
+				C444E28B1F7762A600582833 /* Prefix.pch */,
 				C4EAD3121F7728B800910CB8 /* main.m */,
 			);
-			path = TESTER;
+			path = searchControllerDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C4EAD2FC1F7728B800910CB8 /* TESTER */ = {
+		C4EAD2FC1F7728B800910CB8 /* searchControllerDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C4EAD3161F7728B800910CB8 /* Build configuration list for PBXNativeTarget "TESTER" */;
+			buildConfigurationList = C4EAD3161F7728B800910CB8 /* Build configuration list for PBXNativeTarget "searchControllerDemo" */;
 			buildPhases = (
 				C4EAD2F91F7728B800910CB8 /* Sources */,
 				C4EAD2FA1F7728B800910CB8 /* Frameworks */,
@@ -91,9 +113,9 @@
 			);
 			dependencies = (
 			);
-			name = TESTER;
+			name = searchControllerDemo;
 			productName = TESTER;
-			productReference = C4EAD2FD1F7728B800910CB8 /* TESTER.app */;
+			productReference = C4EAD2FD1F7728B800910CB8 /* searchControllerDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -111,7 +133,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C4EAD2F81F7728B800910CB8 /* Build configuration list for PBXProject "TESTER" */;
+			buildConfigurationList = C4EAD2F81F7728B800910CB8 /* Build configuration list for PBXProject "searchControllerDemo" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -124,7 +146,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C4EAD2FC1F7728B800910CB8 /* TESTER */,
+				C4EAD2FC1F7728B800910CB8 /* searchControllerDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -136,6 +158,7 @@
 			files = (
 				C4EAD3101F7728B800910CB8 /* LaunchScreen.storyboard in Resources */,
 				C4EAD30D1F7728B800910CB8 /* Assets.xcassets in Resources */,
+				C4A264B91F776E400052C3F2 /* TableCell.xib in Resources */,
 				C4EAD30B1F7728B800910CB8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,10 +170,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C444E2841F77505100582833 /* APLBaseTableViewController.m in Sources */,
 				C4EAD3051F7728B800910CB8 /* MasterViewController.m in Sources */,
 				C4EAD3021F7728B800910CB8 /* AppDelegate.m in Sources */,
 				C4EAD3131F7728B800910CB8 /* main.m in Sources */,
-				C4EAD3081F7728B800910CB8 /* DetailViewController.m in Sources */,
+				C444E2851F77505100582833 /* APLProduct.m in Sources */,
+				C444E2831F77505100582833 /* APLMainTableViewController.m in Sources */,
+				C444E2821F77505100582833 /* APLDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,7 +250,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -273,7 +299,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -286,9 +312,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V54DGR7GF3;
-				INFOPLIST_FILE = TESTER/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/Prefix.pch";
+				INFOPLIST_FILE = searchControllerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = net.samarama.TESTER;
+				PRODUCT_BUNDLE_IDENTIFIER = net.samarama.searchControllerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,9 +328,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V54DGR7GF3;
-				INFOPLIST_FILE = TESTER/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/Prefix.pch";
+				INFOPLIST_FILE = searchControllerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = net.samarama.TESTER;
+				PRODUCT_BUNDLE_IDENTIFIER = net.samarama.searchControllerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -311,7 +341,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C4EAD2F81F7728B800910CB8 /* Build configuration list for PBXProject "TESTER" */ = {
+		C4EAD2F81F7728B800910CB8 /* Build configuration list for PBXProject "searchControllerDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C4EAD3141F7728B800910CB8 /* Debug */,
@@ -320,7 +350,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C4EAD3161F7728B800910CB8 /* Build configuration list for PBXNativeTarget "TESTER" */ = {
+		C4EAD3161F7728B800910CB8 /* Build configuration list for PBXNativeTarget "searchControllerDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C4EAD3171F7728B800910CB8 /* Debug */,
